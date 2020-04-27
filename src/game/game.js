@@ -11,8 +11,8 @@ export default class Game {
     this.finished = false;
     this.ctx = ctx;
     this.spacePressed = false;
-    this.fencesToGo = Game.FENCES_TO_WIN;
-
+    //this.fencesToGo = Game.FENCES_TO_WIN;
+    this.fencesToGo=10;
     //set the frames per second
     this.then = 0;
     this.fps = 10;
